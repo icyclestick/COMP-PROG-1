@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-void main(){
+void main()
+{
 
     char name[100];
 
@@ -8,12 +9,14 @@ void main(){
 
     int idealAge;
 
+    int Rating = 12;
+
     // ask name of user
-    printf("\nYour name please: \n");
+    printf("\nYour name pls \n");
     // recieve name of user
     scanf("%s", &name);
     // ask age of user
-    printf("\nYour age please! : \n");
+    printf("\n%s your age pls \n", name);
     // recieve age of user
     scanf("%d", &age);
 
